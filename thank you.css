@@ -1,0 +1,23 @@
+﻿body{
+	background-color:black;
+	font-family:"Comic Sans MS";
+	color:#666698;
+}
+a{
+	transition: all 0.2s;
+	font-family:"Comic Sans MS";
+	font-size:40px;
+	text-decoration:none;
+}
+a:hover{
+	font-family:"Comic Sans MS";
+	font-size:45px;
+	color:white;
+	background-color:black;
+	text-decoration:none;
+}
+
+img{
+	border-radius:5%;
+}
+

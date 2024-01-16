@@ -1,0 +1,116 @@
+﻿body{
+	background-image:url('tovp-night-view.jpg');
+	background-repeat:no-repeat;
+	font-family:"Comic Sans MS";
+	background-size:cover;
+	height:100%;
+}
+.sidenav{
+	font-family:"Comic Sans MS";
+	top:0;
+	background-color:white;
+	height:100%;
+	position:fixed;
+	width:20%;
+	color:gray;
+	z-index:1;
+	left:0;
+	overflow:hidden;
+}
+span{
+	color:white;
+}
+.sidenav a{
+	transition: all 0.2s;
+	font-size:20px;
+	padding:30px 28px;
+	text-decoration:none;
+	display:block;
+}
+.sidenav a:hover{
+	font-size:23px;
+	color:black;
+}
+.closebtn{
+	position:absolute;
+	color:black;
+	right:0;
+	top:-30px;
+	margin-left:50px;
+}
+.sidenav{
+	background-color:#5D9DB8;
+	position:absolute;
+	color:black;
+	right:0;
+}
+img{
+	height:25%;
+	width:100%;
+	padding-top:100%;
+}
+h1{
+	font-style:oblique;
+	font-size:50px;
+	padding-top:3%;
+	margin-left:40%;
+	color:#FF9900;
+}
+table{
+	overflow:hidden;
+	font-family:"Comic Sans MS";
+	margin-left:auto;
+	margin-right:auto;
+	text-align:justify;
+	box-shadow:0 0 20px rgba(0,0,0,0.5);
+}
+td
+{
+	padding:15px;
+	background-color:rgba(255,255,255,0.3);
+}
+th{
+	padding:15px;
+	color:#993399;
+	background-color:rgba(255,255,255,0.1);
+}
+tr:hover {
+	background-color:rgba(255,255,255,0.5);
+}
+
+td, th {
+  position: relative;
+}
+td:hover::before {
+    background-color:rgba(205,129,172,0.5);
+    content: '';
+    height: 100%;
+    left: -5000px;
+    position: absolute;
+    top: 0;
+    width: 10000px;
+    z-index: -2;
+}
+td:hover::after {
+    background-color:rgba(205,129,172,0.5);
+    content: '';
+    height: 10000px;
+    left: 0;
+    position: absolute;
+    top: -5000px;
+    width: 100%;
+    z-index: -1;
+}
+.footer
+{
+	font-family:"Comic Sans MS";
+	font-size:17px;
+	color:white;
+	width:100%;
+	position:fixed;
+	text-align:center;
+	bottom:0;
+}
+.price{
+	text-align: right;
+}

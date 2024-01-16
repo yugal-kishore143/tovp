@@ -1,0 +1,76 @@
+﻿body,html{
+	border-style: none;
+	border-color: inherit;
+	border-width: thick;
+	overflow-y:hidden;
+	background-color:black;
+	background-image:url('tovp.jpg');
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position:center;
+	height:100%;
+	}
+.sidenav{
+	font-family:"Comic Sans MS";
+	top:0;
+	background-color:black;
+	height:100%;
+	position:fixed;
+	width:20%;
+	z-index:1;
+	left:0;
+	overflow-x:hidden;
+}
+img{
+	height:25%;
+	width:100%;
+	padding-top:100%;
+}
+span{
+	color:#fff;
+}
+.sidenav a{
+	transition: all 0.2s;
+	color:gray;
+	font-size:20px;
+	padding:30px 28px;
+	text-decoration:none;
+	display:block;
+}
+.sidenav a:hover{
+	color:white;
+	font-size:23px;
+}
+.sidenav .closebtn{
+	position:absolute;
+	color:gray;
+	right:0;
+	top:-30px;
+}
+.container
+{
+	top:8%;
+	text-align:center;
+	text-decoration:blink;
+}
+h1
+{
+	text-align:center;
+	font-family:"Cooper Black", "Cooper Black";
+}
+h2
+{
+	text-align:center;
+	font-family:"Cooper Black", "Cooper Black";
+}
+.footer
+{
+	font-family:"Comic Sans MS";
+	font-size:17px;
+	color:white;
+	width:100%;
+	position:fixed;
+	text-align:center;
+	bottom:0;
+
+}
